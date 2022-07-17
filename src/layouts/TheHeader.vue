@@ -19,6 +19,9 @@
             <li class="nav-item">
               <RouterLink class="nav-link" actove-class="active" to="/posts">게시글</RouterLink>
             </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" actove-class="active" to="/nested">Nested</RouterLink>
+            </li>
           </ul>
           <div class="d-flex">
             <button class="btn btn-outline-light my-2 my-sm-0" type="button" @click="goPage">
